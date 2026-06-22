@@ -13,6 +13,7 @@ import { ContactSection } from '@/components/sections/ContactSection'
 import { Footer } from '@/components/sections/Footer'
 import { AboutSection } from '@/components/sections/AboutSection'
 import { GuaranteeSection } from '@/components/sections/GuaranteeSection'
+import { BookingSection } from '@/components/sections/BookingSection'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <AboutSection />
       <ServicesSection />
       <ProcessSection />
+      <BookingSection />
       <GallerySection />
       <TestimonialsSection />
       <TeamSection />
