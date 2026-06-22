@@ -11,12 +11,15 @@ import { WhyChooseUsSection } from '@/components/sections/WhyChooseUsSection'
 import { FAQSection } from '@/components/sections/FAQSection'
 import { ContactSection } from '@/components/sections/ContactSection'
 import { Footer } from '@/components/sections/Footer'
+import { AboutSection } from '@/components/sections/AboutSection'
+import { GuaranteeSection } from '@/components/sections/GuaranteeSection'
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <HeroSection />
+      <AboutSection />
       <ServicesSection />
       <ProcessSection />
       <GallerySection />
@@ -24,6 +27,7 @@ export default function Home() {
       <TeamSection />
       <LocationSection />
       <BrandsSection />
+      <GuaranteeSection />
       <WhyChooseUsSection />
       <FAQSection />
       <ContactSection />
